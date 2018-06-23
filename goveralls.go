@@ -57,6 +57,7 @@ var (
 	ignore     = flag.String("ignore", "", "Comma separated files to ignore")
 	insecure   = flag.Bool("insecure", false, "Set insecure to skip verification of certificates")
 	show       = flag.Bool("show", false, "Show which package is being tested")
+	merge      = flag.Bool("merge", true, "Merge multiple coverage profiles into one")
 )
 
 // usage supplants package flag's Usage variable
